@@ -1,0 +1,40 @@
+.test {
+    background-color: pink;
+    color: blue;
+    font-size: 40px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.test2 {
+    background-color: transparent;
+    color: blue;
+    font-size: 40px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    z-index: 2;
+}
+
+.box {
+    /*background-color: white;
+    color: black;
+    border-radius: 2px;
+    border: 1px gray solid;
+    font-family: "Josefin Sans";
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    line-height: 140%;*/
+  }

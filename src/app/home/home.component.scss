@@ -1,0 +1,83 @@
+.grid {
+    display: grid;
+    /*border: 2px blue solid;*/
+    top: 0px;
+    left: 0px;
+    height: 425px;
+    width: 300px;
+    grid-template: 0.5% repeat(6, 15%)/ 95%;
+    grid-gap: 7px;
+    justify-content: center;
+    z-index: -1;
+  }
+
+.greenn {
+    color:#489B22;
+}
+
+.transparent {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: transparent;
+    color: white;
+    z-index: 1;
+
+    color: black;
+    border-radius: 2px;
+    border: 1px gray solid;
+    font-family: "Josefin Sans";
+    font-size: 15px;
+    text-align: left;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    line-height: 140%;
+}
+
+.small {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-color: yellow;
+}
+.a {grid-area: 2 / 1 / span 1 / span 1;}
+
+.b {grid-area: 3 / 1 / span 1 / span 1;}
+
+.c {grid-area: 4 / 1 / span 1 / span 1;}
+
+.d {grid-area: 5 / 1 / span 1 / span 1;}
+
+.e {grid-area: 6 / 1 / span 1 / span 1;}
+
+.f {grid-area: 7 / 1 / span 1 / span 1;}
+
+
+  #special {
+    display: absolute;
+    background-color: yellow;
+    z-index: 1;
+    top: 0px;
+
+  }
+  
+  .box {
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    border: 1px gray solid;
+    font-family: "Josefin Sans";
+    font-size: 15px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    line-height: 140%;
+  }
+
+
+  .pink {
+      background-color: #f5d2d2;
+  }
+
+  .green {
+    background-color: #acdda8;
+  }

@@ -1,0 +1,120 @@
+.bar2 {
+    position: absolute;
+    margin-top: 20px;
+    filter: invert(1);
+}
+
+#dehaze {
+    top: 25px;
+    left: 10px;
+}
+
+#signal {
+    top: 5px;
+    left: 5px;
+    font-size:14px;
+}
+
+#wifi {
+    top: 7px;
+    left: 56px;
+    font-size:12px;
+}
+
+#bluetooth {
+    top: 7px;
+    left: 242px;
+    font-size:12px;
+}
+
+#battery {
+    top: 5.5px;
+    left: 282px;
+    font-size:15px;
+}
+
+.bar {
+    position: absolute;
+    top: 9px;
+    margin-top: 20px;
+    font-size: 10px;
+    color: white;
+    font-family: "Josefin Sans"
+}
+
+.Verizon {
+    left: 20px;
+}
+
+.time {
+    left: 135px;
+}
+
+.percent {
+    left: 256px;
+}
+
+.rotate-90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+nav {
+    /*background: #2D2E2E;*/
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    background: lightgray;
+    width: 300px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 502px;
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+
+            a {
+                background-color:lightgray;
+                /*padding: 2px;*/
+                display: inline-block;
+                height: 40px;
+                width: 60px;
+            }
+            .material-icons {
+                font-size: 30px;
+                color: rgb(73, 73, 73);
+                padding: 10px;
+            }
+
+            .megahorn {
+                height:40px;
+            }
+
+            .mega {
+                padding-left: 10px;
+                filter: invert(0.29);
+            }
+
+            .activated {
+                .svg{
+                    filter: invert(.5) sepia(1) saturate(68) hue-rotate(195deg);
+                    /*background-color: skyblue;*/
+                }
+            }
+        }
+    }
+    
+}
+
+/*.svg {
+    filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
+}*/
